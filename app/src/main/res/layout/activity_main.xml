@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/ttt_1"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_x="25dp"
+            android:layout_y="30dp"
+            android:background="#ccc2c2"
+            android:textColor="#0000FF"
+            android:gravity="top"
+            android:text=""
+            android:hint="Число А"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/ttt_2"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_x="25dp"
+            android:layout_y="90dp"
+            android:background="#ccc2c2"
+            android:textColor="#0000FF"
+            android:gravity="top"
+            android:text=""
+            android:hint="Число Б"
+            android:maxLength="5"
+            android:singleLine="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/vvv_1"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_x="25dp"
+            android:layout_y="220dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bbb_1"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_x="25dp"
+            android:layout_y="150dp"
+            android:text="Сумма"
+            android:background="#2aea0c"
+            android:onClick="find_my_summa"/>
+
+    </AbsoluteLayout>
+
+
+</ScrollView>
